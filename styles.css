@@ -1,0 +1,293 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  color: #393A3D;
+}
+
+nav {
+  border-bottom: 1px solid #E8E8E8;
+  width: 84%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: #393A3D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #F8F8F8;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #393A3D;
+  font-weight: 100;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #F8F8F8;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.access {
+  float: right;
+}
+
+.access .accessbtn {
+  padding: 8px 16px;
+  margin-right: 15px;
+  text-align: center;
+  border: 2px solid #00A6A4;
+  border-radius: 5px;
+  color: #00A6A4;
+}
+
+.signupBtn{
+  padding: 8px 16px;
+  margin-right: 15px;
+  text-align: center;
+  background-color: #FF9330;
+  border: 2px solid #FF9330;
+  border-radius: 5px;
+  color: white;
+}
+
+.signupBtn:hover{
+  padding: 8px 16px;
+  margin-right: 15px;
+  text-align: center;
+  background-color: #FF8311;
+  border: 2px solid #FF8311;
+  border-radius: 5px;
+  color: white;
+}
+
+.sectionOddNums {
+  background-color: white;
+  width: 84%;
+  margin: auto;
+  height: 450px;
+}
+
+.area1 {
+  width: 50%;
+  float: left;
+}
+
+#mintLogo {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.productTitleBold {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.productPrice {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.productDescription {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.area2 {
+  width: 50%;
+  height: 450px;
+  float: right;
+}
+
+.area2Image {
+  width: 100%;
+  height: 450px;
+}
+
+.sectionEvenNums {
+  background-color: #F4F5F9;
+  width: 84%;
+  margin: auto;
+  height: 450px;
+}
+
+.productDetailCard {
+  width: 350px;
+  height: 310px;
+  display: flex;
+  justify-content:space-between;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 27%;
+  padding: 0px;
+  margin-top: 25px;
+  margin-left: 5%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.productInfo {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 65px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#walletIcon {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.buyBtnGroup {
+  width: 566px;
+  margin: auto;
+}
+
+.buyBtn {
+  width: 160px;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.buyBtn:hover {
+  cursor: pointer;
+}
+
+.priceSection {
+  margin-bottom: 20px;
+}
+
+.area3 {
+  width: 50%;
+  height: 450px;
+  float: left;
+  background-color: #33B8B5;
+}
+
+.productInformationBold {
+  text-align: left;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  color: white;
+  width: 226px;
+  margin-top: 70px;
+  padding-left: 18px;
+  margin-left: 50px;
+}
+
+.productInformation {
+  margin-top: 5px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 300;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.priceSection {
+  background-color: white;
+  width: 84%;
+  margin: auto;
+  height: 500px;
+}
+
+.area3Information {
+  text-align: left;
+  width: 335px;
+  padding-left: 0px;
+  margin-top: 40px;
+  padding: 0px;
+  margin-left: 50px;
+}
+
+.intuitBuilding {
+  width: 350px;
+  margin-top: 60px;
+  margin-left: 8%;
+}
+
+footer {
+  height: 200px;
+  background-color: #393A3D;
+  color: white;
+  text-align: center;
+}
+
+address {
+  padding-top: 30px;
+}
+
+a {
+  color: #33B8B5;
+}
